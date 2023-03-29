@@ -1,0 +1,2 @@
+4. Indica cuál es el problema de utilizar un Vector con la capacidad por defecto si tuviésemos 1000 elementos para ser añadidos al mismo tiempo.
+El problema sería que, al ser la capacidad inicial de un vector por defecto 10, y dado que por defecto su capacidad se amplía al doble cada vez que ésta es sobrepasada, necesitaríamos múltiples reasignaciones, lo cual supondría una sobrecarga computacional en el rendimiento del programa.
